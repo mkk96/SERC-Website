@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles/main.css">
+    <script src="/static/scripts/main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+type="text/javascript"></script>
+     <title>People</title>
+</head>
+<body>
+    <div class="navbar navbar-inverse">
+        <div class="container-fluid"  >
+            <div class="row" >
+                <div class="first">
+
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <a href="/" class="navbar-brand">SERC IIIT H</a>
+                    </div>
+
+                    <div class="navbar-collapse collapse" id="mobile_menu">
+                        <ul class="nav navbar-nav">
+                            <li class="second"><a href="/">Home</a></li>
+                            <li class="fifth"><a href="#" class="dropdown-toggle" data-toggle="dropdown">People <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="{{ url_for('profile',para='faculty') }}">Faculty</a></li>
+                                    <li><a href="{{ url_for('profile',para='phd') }}">PhD Students</a></li>
+                                    <li><a href="{{ url_for('profile',para='ms') }}">MS Students</a></li>
+                                    <li><a href="{{ url_for('profile',para='btech') }}">B.Tech. Students</a></li>
+                                    <li><a href="{{ url_for('profile',para='project') }}">Project Interns</a></li>
+                                </ul>
+                            </li>
+                            <li class="second"><a href="{{ url_for('publication') }}">Publications</a></li>
+                            <li class="second"><a href="{{ url_for('focus') }}">Focus areas</a></li>
+                            <li class="second"><a href="{{ url_for('event') }}">Events</a></li>
+                            <li class="second"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="{{ url_for('resources',para='project') }}">Projects</a></li>
+                                    <li><a href="{{ url_for('resources',para='teaching') }}">Teaching</a></li>
+                                    <li><a href="{{ url_for('resources',para='download') }}">Downloads/Useful Links</a></li>
+                                    <li><a href="{{ url_for('resources',para='demos') }}">Demos</a></li>
+                                    <li><a href="{{ url_for('resources',para='dataset') }}">Dataset</a></li>
+                                    <li><a href="{{ url_for('resources',para='posters') }}">Posters</a></li>
+                                </ul>
+                            </li>
+                            <li class="second"><a href="{{ url_for('contact') }}">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <form action="" class="navbar-form">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="search" name="search" id="" placeholder="Search Anything Here..." class="form-control">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="second"><a href="{{ url_for('admin') }}"><span class="glyphicon glyphicon-user"></span> ADMIN</a></li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>    
+    </div>
+    {% if data == 1%}
+    <rssapp-ticker id="TXzxEhwXu3eqjCkn"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
+    {% endif %}
+    <h1 class="third" style="text-align: center;">{{param}}</h1><br><br>
+    <div class="container-fluid" id="galary"></div>
+    <script type="text/javascript" language="JavaScript">proffun('{{result|tojson}}')</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

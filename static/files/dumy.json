@@ -1,0 +1,1027 @@
+{
+  "search_metadata": {
+    "id": "615f0cdbdefa1309d7c4bb5a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/94a239f4b86b6948/615f0cdbdefa1309d7c4bb5a.json",
+    "created_at": "2021-10-07 15:06:03 UTC",
+    "processed_at": "2021-10-07 15:06:03 UTC",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=iiith&hl=en&start=0&num=1000",
+    "raw_html_file": "https://serpapi.com/searches/94a239f4b86b6948/615f0cdbdefa1309d7c4bb5a.html",
+    "total_time_taken": 2.95
+  },
+  "search_parameters": {
+    "engine": "google_scholar",
+    "q": "iiith",
+    "hl": "en",
+    "start": 0,
+    "num": "1000"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 8280,
+    "time_taken_displayed": 0.03,
+    "query_displayed": "iiith"
+  },
+  "profiles": {
+    "title": "User profiles for:",
+    "link": "https://scholar.google.com/citations?view_op=view_org&org=4946093267834442390&hl=en&num=20&oi=io",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=iiith"
+  },
+  "organic_results": [
+    {
+      "position": 0,
+      "title": "Iiit-h system submission for fire2014 shared task on transliterated search",
+      "result_id": "VBEOoxEmlgAJ",
+      "link": "https://dl.acm.org/doi/abs/10.1145/2824864.2824872",
+      "snippet": "… Aniruddha Tammewar LTRC, IIIT-H Hyderabad, Telengana uttam.tammewar@research.iiit. ac.in Riyaz Ahmad Bhat LTRC, IIIT-H Hyderabad, Telengana riyaz.bhat@research.iiit.ac.in Manish Shrivastava LTRC, IIIT-H Hyderabad, Telengana m.shrivastava@iiit.ac.in ABSTRACT …",
+      "publication_info": {
+        "summary": "IA Bhat, V Mujadia, A Tammewar, RA Bhat… - Proceedings of the …, 2014 - dl.acm.org",
+        "authors": [
+          {
+            "name": "IA Bhat",
+            "link": "https://scholar.google.com/citations?user=PRvWQRoAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=PRvWQRoAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "PRvWQRoAAAAJ"
+          },
+          {
+            "name": "V Mujadia",
+            "link": "https://scholar.google.com/citations?user=nlt3cWcAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=nlt3cWcAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "nlt3cWcAAAAJ"
+          },
+          {
+            "name": "A Tammewar",
+            "link": "https://scholar.google.com/citations?user=aFj0T9kAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aFj0T9kAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "aFj0T9kAAAAJ"
+          },
+          {
+            "name": "RA Bhat",
+            "link": "https://scholar.google.com/citations?user=BGC4b-sAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BGC4b-sAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "BGC4b-sAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "academia.edu",
+          "file_format": "PDF",
+          "link": "https://www.academia.edu/download/38364333/FIRE2014_IIITH.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=VBEOoxEmlgAJ",
+        "cited_by": {
+          "total": 52,
+          "link": "https://scholar.google.com/scholar?cites=42263103698506068&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "42263103698506068",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=42263103698506068&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:VBEOoxEmlgAJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 9,
+          "link": "https://scholar.google.com/scholar?cluster=42263103698506068&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "42263103698506068",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=42263103698506068&engine=google_scholar&hl=en&num=20"
+        }
+      }
+    },
+    {
+      "position": 1,
+      "title": "SFF Anti-Spoofer: IIIT-H Submission for Automatic Speaker Verification Spoofing and Countermeasures Challenge 2017.",
+      "result_id": "zmhxpKmh3NEJ",
+      "type": "Pdf",
+      "link": "https://www.academia.edu/download/65898986/6da34b4218a3960e65f92c4c554ede62a412.pdf",
+      "snippet": "The ASVspoof 2017 challenge is about the detection of replayed speech from human speech. The proposed system makes use of the fact that when the speech signals are replayed, they pass through multiple channels as opposed to original recordings. This …",
+      "publication_info": {
+        "summary": "KR Alluri, S Achanta, SR Kadiri, SV Gangashetty… - Interspeech, 2017 - academia.edu",
+        "authors": [
+          {
+            "name": "KR Alluri",
+            "link": "https://scholar.google.com/citations?user=Ri3j3p8AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Ri3j3p8AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "Ri3j3p8AAAAJ"
+          },
+          {
+            "name": "S Achanta",
+            "link": "https://scholar.google.com/citations?user=_c0_7zYAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_c0_7zYAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "_c0_7zYAAAAJ"
+          },
+          {
+            "name": "SR Kadiri",
+            "link": "https://scholar.google.com/citations?user=JtYxSzkAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=JtYxSzkAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "JtYxSzkAAAAJ"
+          },
+          {
+            "name": "SV Gangashetty",
+            "link": "https://scholar.google.com/citations?user=U1ofnDgAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=U1ofnDgAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "U1ofnDgAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "academia.edu",
+          "file_format": "PDF",
+          "link": "https://www.academia.edu/download/65898986/6da34b4218a3960e65f92c4c554ede62a412.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=zmhxpKmh3NEJ",
+        "cited_by": {
+          "total": 57,
+          "link": "https://scholar.google.com/scholar?cites=15122139398783723726&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "15122139398783723726",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=15122139398783723726&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:zmhxpKmh3NEJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cluster=15122139398783723726&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "15122139398783723726",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=15122139398783723726&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:zmhxpKmh3NEJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 2,
+      "title": "IIT (BHU)–IIITH at CoNLL–SIGMORPHON 2018 shared task on universal morphological reinflection",
+      "result_id": "xhEnXvdqc94J",
+      "type": "Pdf",
+      "link": "https://www.aclweb.org/anthology/K18-3013.pdf",
+      "snippet": "This paper describes the systems submitted by IIT (BHU), Varanasi/IIIT Hyderabad (IITBHU–IIITH) for Task 1 of CoNLL–SIGMORPHON 2018 Shared Task on Universal Morphological Reinflection (Cotterell et al., 2018). The task is to generate the inflected form given a lemma …",
+      "publication_info": {
+        "summary": "A Sharma, G Katrapati, DM Sharma - Proceedings of the CoNLL …, 2018 - aclweb.org",
+        "authors": [
+          {
+            "name": "A Sharma",
+            "link": "https://scholar.google.com/citations?user=9IO-8IQAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9IO-8IQAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "9IO-8IQAAAAJ"
+          },
+          {
+            "name": "DM Sharma",
+            "link": "https://scholar.google.com/citations?user=P77qMSkAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=P77qMSkAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "P77qMSkAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "aclweb.org",
+          "file_format": "PDF",
+          "link": "https://www.aclweb.org/anthology/K18-3013.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=xhEnXvdqc94J",
+        "cited_by": {
+          "total": 17,
+          "link": "https://scholar.google.com/scholar?cites=16029273109410812358&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "16029273109410812358",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=16029273109410812358&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:xhEnXvdqc94J:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=16029273109410812358&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "16029273109410812358",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=16029273109410812358&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:xhEnXvdqc94J:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 3,
+      "title": "The IIIT-H Indic speech databases",
+      "result_id": "cX0AWHydLdAJ",
+      "link": "https://www.isca-speech.org/archive_v0/archive_papers/interspeech_2012/i12_2546.pdf",
+      "snippet": "This paper discusses the efforts in collecting speech databases for Indian languages–Bengali, Hindi, Kannada, Malayalam, Marathi, Tamil and Telugu. We discuss relevant design considerations in collecting these databases, and demonstrate their usage in speech …",
+      "publication_info": {
+        "summary": "K Prahallad, EN Kumar, V Keri… - … annual conference of …, 2012 - isca-speech.org",
+        "authors": [
+          {
+            "name": "K Prahallad",
+            "link": "https://scholar.google.com/citations?user=3-8i_54AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3-8i_54AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "3-8i_54AAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "cmu.edu",
+          "file_format": "PDF",
+          "link": "https://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/awb/papers/IS2012/913_Paper.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=cX0AWHydLdAJ",
+        "cited_by": {
+          "total": 69,
+          "link": "https://scholar.google.com/scholar?cites=15000819091218922865&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "15000819091218922865",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=15000819091218922865&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:cX0AWHydLdAJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 11,
+          "link": "https://scholar.google.com/scholar?cluster=15000819091218922865&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "15000819091218922865",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=15000819091218922865&engine=google_scholar&hl=en&num=20"
+        }
+      }
+    },
+    {
+      "position": 4,
+      "title": "Cde-iiith at semeval-2016 task 12: Extraction of temporal information from clinical documents using machine learning techniques",
+      "result_id": "tzZ6BwMLNaEJ",
+      "type": "Pdf",
+      "link": "https://www.aclweb.org/anthology/S16-1192.pdf",
+      "snippet": "In this paper, we demonstrate our approach for identification of events, time expressions and temporal relations among them. This work was carried out as part of SemEval-2016 Challenge Task 12: Clinical TempEval. The task comprises six sub-tasks: identification of …",
+      "publication_info": {
+        "summary": "VR Chikka - Proceedings of the 10th International Workshop on …, 2016 - aclweb.org",
+        "authors": [
+          {
+            "name": "VR Chikka",
+            "link": "https://scholar.google.com/citations?user=ydV3kxEAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ydV3kxEAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "ydV3kxEAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "aclweb.org",
+          "file_format": "PDF",
+          "link": "https://www.aclweb.org/anthology/S16-1192.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=tzZ6BwMLNaEJ",
+        "cited_by": {
+          "total": 23,
+          "link": "https://scholar.google.com/scholar?cites=11616202921510319799&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "11616202921510319799",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11616202921510319799&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:tzZ6BwMLNaEJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cluster=11616202921510319799&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "11616202921510319799",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=11616202921510319799&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:tzZ6BwMLNaEJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 5,
+      "title": "IIITH-ILSC Speech Database for Indain Language Identification.",
+      "result_id": "uCcGa4zZy8kJ",
+      "link": "https://isca-speech.org/archive/SLTU_2018/pdfs/Ravi1.pdf",
+      "snippet": "This work focuses on the development of speech data comprising 23 Indian languages for developing language identification (LID) systems. Large data is a pre-requisite for developing state-of-the-art LID systems. With this motivation, the task of developing …",
+      "publication_info": {
+        "summary": "RK Vuddagiri, K Gurugubelli, P Jain, HK Vydana… - SLTU, 2018 - isca-speech.org",
+        "authors": [
+          {
+            "name": "K Gurugubelli",
+            "link": "https://scholar.google.com/citations?user=1ifXrL0AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=1ifXrL0AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "1ifXrL0AAAAJ"
+          },
+          {
+            "name": "P Jain",
+            "link": "https://scholar.google.com/citations?user=heuQvgwAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=heuQvgwAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "heuQvgwAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Priyam-Jain-2/publication/328069554_IIITH-ILSC_Speech_Database_for_Indain_Language_Identification/links/5bc1ff1292851c88fd6995c5/IIITH-ILSC-Speech-Database-for-Indain-Language-Identification.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=uCcGa4zZy8kJ",
+        "cited_by": {
+          "total": 9,
+          "link": "https://scholar.google.com/scholar?cites=14540955019009992632&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "14540955019009992632",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=14540955019009992632&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:uCcGa4zZy8kJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 4,
+          "link": "https://scholar.google.com/scholar?cluster=14540955019009992632&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "14540955019009992632",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=14540955019009992632&engine=google_scholar&hl=en&num=20"
+        }
+      }
+    },
+    {
+      "position": 6,
+      "title": "IIITH at SemEval-2021 Task 7: Leveraging transformer-based humourous and offensive text detection architectures using lexical and hurtlex features and task …",
+      "result_id": "AoXrklX6VTwJ",
+      "link": "https://aclanthology.org/2021.semeval-1.173/",
+      "snippet": "This paper describes our approach (IIITH) for SemEval-2021 Task 5: HaHackathon: Detecting and Rating Humor and Offense. Our results focus on two major objectives:(i) Effect of task adaptive pretraining on the performance of transformer based models (ii) How does …",
+      "publication_info": {
+        "summary": "T Raha, IS Upadhyay, R Mamidi… - Proceedings of the 15th …, 2021 - aclanthology.org",
+        "authors": [
+          {
+            "name": "T Raha",
+            "link": "https://scholar.google.com/citations?user=RHlq8NEAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=RHlq8NEAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "RHlq8NEAAAAJ"
+          },
+          {
+            "name": "IS Upadhyay",
+            "link": "https://scholar.google.com/citations?user=SpULwZMAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=SpULwZMAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "SpULwZMAAAAJ"
+          },
+          {
+            "name": "R Mamidi",
+            "link": "https://scholar.google.com/citations?user=DsIpZR0AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=DsIpZR0AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "DsIpZR0AAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "aclanthology.org",
+          "file_format": "PDF",
+          "link": "https://aclanthology.org/2021.semeval-1.173.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=AoXrklX6VTwJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=4347656260740154626&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "4347656260740154626",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=4347656260740154626&engine=google_scholar&hl=en&num=20"
+        },
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=4347656260740154626&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "4347656260740154626",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=4347656260740154626&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:AoXrklX6VTwJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 7,
+      "title": "IIIT-H Spoofing Countermeasures for Automatic Speaker Verification Spoofing and Countermeasures Challenge 2019.",
+      "result_id": "Ph6uOkliG-MJ",
+      "link": "https://www.isca-speech.org/archive_v0/Interspeech_2019/pdfs/1623.pdf",
+      "snippet": "The ASVspoof 2019 challenge focuses on countermeasures for all major spoofing attacks, namely speech synthesis (SS), voice conversion (VC), and replay spoofing attacks. This paper describes the IIIT-H spoofing countermeasures developed for ASVspoof 2019 …",
+      "publication_info": {
+        "summary": "KR Alluri, AK Vuppala - Interspeech, 2019 - isca-speech.org",
+        "authors": [
+          {
+            "name": "KR Alluri",
+            "link": "https://scholar.google.com/citations?user=Ri3j3p8AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Ri3j3p8AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "Ri3j3p8AAAAJ"
+          },
+          {
+            "name": "AK Vuppala",
+            "link": "https://scholar.google.com/citations?user=VEx1PN4AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=VEx1PN4AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "VEx1PN4AAAAJ"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=Ph6uOkliG-MJ",
+        "cited_by": {
+          "total": 9,
+          "link": "https://scholar.google.com/scholar?cites=16364781737637453374&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "16364781737637453374",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=16364781737637453374&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:Ph6uOkliG-MJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cluster=16364781737637453374&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "16364781737637453374",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=16364781737637453374&engine=google_scholar&hl=en&num=20"
+        }
+      }
+    },
+    {
+      "position": 8,
+      "title": "IIITH: domain specific word sense disambiguation",
+      "result_id": "xJnSeRuu4mwJ",
+      "type": "Pdf",
+      "link": "https://www.aclweb.org/anthology/S10-1087.pdf",
+      "snippet": "We describe two systems that participated in SemEval-2010 task 17 (All-words Word Sense Disambiguation on a Specific Domain) and were ranked in the third and fourth positions in the formal evaluation. Domain adaptation techniques using the background documents …",
+      "publication_info": {
+        "summary": "S Reddy, A Inumella, D McCarthy… - Proceedings of the 5th …, 2010 - aclweb.org",
+        "authors": [
+          {
+            "name": "S Reddy",
+            "link": "https://scholar.google.com/citations?user=LZZAAtoAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=LZZAAtoAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "LZZAAtoAAAAJ"
+          },
+          {
+            "name": "A Inumella",
+            "link": "https://scholar.google.com/citations?user=BaVHCckAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BaVHCckAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "BaVHCckAAAAJ"
+          },
+          {
+            "name": "D McCarthy",
+            "link": "https://scholar.google.com/citations?user=hcJSzpUAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=hcJSzpUAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "hcJSzpUAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "aclweb.org",
+          "file_format": "PDF",
+          "link": "https://www.aclweb.org/anthology/S10-1087.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=xJnSeRuu4mwJ",
+        "cited_by": {
+          "total": 21,
+          "link": "https://scholar.google.com/scholar?cites=7846024933864020420&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "7846024933864020420",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=7846024933864020420&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:xJnSeRuu4mwJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 8,
+          "link": "https://scholar.google.com/scholar?cluster=7846024933864020420&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "7846024933864020420",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=7846024933864020420&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:xJnSeRuu4mwJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 9,
+      "title": "An Exploration towards Joint Acoustic Modeling for Indian Languages: IIIT-H Submission for Low Resource Speech Recognition Challenge for Indian …",
+      "result_id": "CIutZrnCLkYJ",
+      "type": "Pdf",
+      "link": "https://www.researchgate.net/profile/Vidyadhar-Vegesna/publication/327388891_An_Exploration_towards_Joint_Acoustic_Modeling_for_Indian_Languages_IIIT-H_Submission_for_Low_Resource_Speech_Recognition_Challenge_for_Indian_Languages_INTERSPEECH_2018/links/5be9bebaa6fdcc3a8dd1b9ed/An-Exploration-towards-Joint-Acoustic-Modeling-for-Indian-Languages-IIIT-H-Submission-for-Low-Resource-Speech-Recognition-Challenge-for-Indian-Languages-INTERSPEECH-2018.pdf",
+      "snippet": "India being a multilingual society, a multilingual automatic speech recognition system (ASR) is widely appreciated. Despite different orthographies, Indian languages share same phonetic space. To exploit this property, a joint acoustic model has been trained for …",
+      "publication_info": {
+        "summary": "HK Vydana, K Gurugubelli, VVR Vegesna… - …, 2018 - researchgate.net",
+        "authors": [
+          {
+            "name": "K Gurugubelli",
+            "link": "https://scholar.google.com/citations?user=1ifXrL0AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=1ifXrL0AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "1ifXrL0AAAAJ"
+          },
+          {
+            "name": "VVR Vegesna",
+            "link": "https://scholar.google.com/citations?user=faSx5RsAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=faSx5RsAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "faSx5RsAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Vidyadhar-Vegesna/publication/327388891_An_Exploration_towards_Joint_Acoustic_Modeling_for_Indian_Languages_IIIT-H_Submission_for_Low_Resource_Speech_Recognition_Challenge_for_Indian_Languages_INTERSPEECH_2018/links/5be9bebaa6fdcc3a8dd1b9ed/An-Exploration-towards-Joint-Acoustic-Modeling-for-Indian-Languages-IIIT-H-Submission-for-Low-Resource-Speech-Recognition-Challenge-for-Indian-Languages-INTERSPEECH-2018.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=CIutZrnCLkYJ",
+        "cited_by": {
+          "total": 12,
+          "link": "https://scholar.google.com/scholar?cites=5057193533131033352&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "5057193533131033352",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=5057193533131033352&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:CIutZrnCLkYJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=5057193533131033352&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "5057193533131033352",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=5057193533131033352&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:CIutZrnCLkYJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 10,
+      "title": "IIITH at BioASQ Challange 2015 Task 3b: Bio-Medical Question Answering System.",
+      "result_id": "2flX_Te8mJwJ",
+      "type": "Pdf",
+      "link": "http://ceur-ws.org/Vol-1391/55-CR.pdf",
+      "snippet": "In this paper, we describe our participation in the 2015 BioASQ challenge on Bio-Medical Question Answering. For Question Answering task (Task 3b), teams were provided with natural language questions and asked to retrieve responses from PubMed corpus in the …",
+      "publication_info": {
+        "summary": "H Yenala, A Kamineni, M Shrivastava… - CLEF (Working …, 2015 - ceur-ws.org",
+        "authors": [
+          {
+            "name": "H Yenala",
+            "link": "https://scholar.google.com/citations?user=anvOwjoAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=anvOwjoAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "anvOwjoAAAAJ"
+          },
+          {
+            "name": "A Kamineni",
+            "link": "https://scholar.google.com/citations?user=Ur1SGqoAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Ur1SGqoAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "Ur1SGqoAAAAJ"
+          },
+          {
+            "name": "M Shrivastava",
+            "link": "https://scholar.google.com/citations?user=sIvMnGQAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=sIvMnGQAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "sIvMnGQAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "ceur-ws.org",
+          "file_format": "PDF",
+          "link": "http://ceur-ws.org/Vol-1391/55-CR.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=2flX_Te8mJwJ",
+        "cited_by": {
+          "total": 11,
+          "link": "https://scholar.google.com/scholar?cites=11283975815036402137&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "11283975815036402137",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11283975815036402137&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:2flX_Te8mJwJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "cached_page_link": "http://scholar.googleusercontent.com/scholar?q=cache:2flX_Te8mJwJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 11,
+      "title": "IIIT-H at SemEval 2015: Twitter Sentiment Analysis–The Good, the Bad and the Neutral!",
+      "result_id": "3IWbmN_WnrgJ",
+      "type": "Pdf",
+      "link": "https://www.aclweb.org/anthology/S15-2087.pdf",
+      "snippet": "This paper describes the system that was submitted to SemEval2015 Task 10: Sentiment Analysis in Twitter. We participated in Subtask B: Message Polarity Classification. The task is a message level classification of tweets into positive, negative and neutral sentiments. Our …",
+      "publication_info": {
+        "summary": "A Dalmia, M Gupta, V Varma - … of the 9th International Workshop on …, 2015 - aclweb.org",
+        "authors": [
+          {
+            "name": "A Dalmia",
+            "link": "https://scholar.google.com/citations?user=8sztpvQAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8sztpvQAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "8sztpvQAAAAJ"
+          },
+          {
+            "name": "M Gupta",
+            "link": "https://scholar.google.com/citations?user=eX9PSu0AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=eX9PSu0AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "eX9PSu0AAAAJ"
+          },
+          {
+            "name": "V Varma",
+            "link": "https://scholar.google.com/citations?user=9OFvbfcAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9OFvbfcAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "9OFvbfcAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "aclweb.org",
+          "file_format": "PDF",
+          "link": "https://www.aclweb.org/anthology/S15-2087.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=3IWbmN_WnrgJ",
+        "cited_by": {
+          "total": 18,
+          "link": "https://scholar.google.com/scholar?cites=13303306605125404124&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "13303306605125404124",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=13303306605125404124&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:3IWbmN_WnrgJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 7,
+          "link": "https://scholar.google.com/scholar?cluster=13303306605125404124&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "13303306605125404124",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=13303306605125404124&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:3IWbmN_WnrgJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 12,
+      "title": "SIS@ IIITH at SemEval-2020 task 8: An overview of simple text classification methods for meme analysis",
+      "result_id": "xoZJk_LoJvkJ",
+      "link": "https://www.aclweb.org/anthology/2020.semeval-1.157/",
+      "snippet": "Memes are steadily taking over the feeds of the public on social media. There is always the threat of malicious users on the internet posting offensive content, even through memes. Hence, the automatic detection of offensive images/memes is imperative along with …",
+      "publication_info": {
+        "summary": "S Boinepelli, M Shrivastava, V Varma - Proceedings of the Fourteenth …, 2020 - aclweb.org",
+        "authors": [
+          {
+            "name": "M Shrivastava",
+            "link": "https://scholar.google.com/citations?user=sIvMnGQAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=sIvMnGQAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "sIvMnGQAAAAJ"
+          },
+          {
+            "name": "V Varma",
+            "link": "https://scholar.google.com/citations?user=9OFvbfcAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9OFvbfcAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "9OFvbfcAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "aclweb.org",
+          "file_format": "PDF",
+          "link": "https://www.aclweb.org/anthology/2020.semeval-1.157.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=xoZJk_LoJvkJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=17953293093109860038&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "17953293093109860038",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=17953293093109860038&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:xoZJk_LoJvkJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:xoZJk_LoJvkJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 13,
+      "title": "LTRC IIITH at IBEREVAL 2017: Stance and Gender Detection in Tweets on Catalan Independence.",
+      "result_id": "8Lt8ojyZy_wJ",
+      "type": "Pdf",
+      "link": "http://ceur-ws.org/Vol-1881/StanceCat2017_paper_4.pdf",
+      "snippet": "We describe the system submitted to IBEREVAL-2017 for stance and gender detection in tweets on Catalan Independence [1]. We developed a supervised system using Support Vector Machines with radial basis function kernel to identify the stance and gender of the …",
+      "publication_info": {
+        "summary": "S Swami, A Khandelwal, M Shrivastava, SS Akhtar - IberEval@ SEPLN, 2017 - ceur-ws.org",
+        "authors": [
+          {
+            "name": "M Shrivastava",
+            "link": "https://scholar.google.com/citations?user=sIvMnGQAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=sIvMnGQAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "sIvMnGQAAAAJ"
+          },
+          {
+            "name": "SS Akhtar",
+            "link": "https://scholar.google.com/citations?user=e33gT3cAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=e33gT3cAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "e33gT3cAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "ceur-ws.org",
+          "file_format": "PDF",
+          "link": "http://ceur-ws.org/Vol-1881/StanceCat2017_paper_4.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=8Lt8ojyZy_wJ",
+        "cited_by": {
+          "total": 6,
+          "link": "https://scholar.google.com/scholar?cites=18215821603533274096&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "18215821603533274096",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=18215821603533274096&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:8Lt8ojyZy_wJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=18215821603533274096&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "18215821603533274096",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=18215821603533274096&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "http://scholar.googleusercontent.com/scholar?q=cache:8Lt8ojyZy_wJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 14,
+      "title": "Iiit-h: A corpus-driven co-occurrence based probabilistic model for noun compound paraphrasing",
+      "result_id": "TWUmucBOWuQJ",
+      "type": "Pdf",
+      "link": "https://www.aclweb.org/anthology/S13-2028.pdf",
+      "snippet": "This paper presents a system for automatically generating a set of plausible paraphrases for a given noun compound and rank them in decreasing order of their usage represented by the confidence value provided by the human annotators. Our system implements a …",
+      "publication_info": {
+        "summary": "N Surtani, A Batra, U Ghosh, S Paul - Second Joint Conference on …, 2013 - aclweb.org",
+        "authors": [
+          {
+            "name": "N Surtani",
+            "link": "https://scholar.google.com/citations?user=49mxweAAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=49mxweAAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "49mxweAAAAAJ"
+          },
+          {
+            "name": "S Paul",
+            "link": "https://scholar.google.com/citations?user=rNO7BrYAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=rNO7BrYAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "rNO7BrYAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "aclweb.org",
+          "file_format": "PDF",
+          "link": "https://www.aclweb.org/anthology/S13-2028.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=TWUmucBOWuQJ",
+        "cited_by": {
+          "total": 6,
+          "link": "https://scholar.google.com/scholar?cites=16454550778198517069&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "16454550778198517069",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=16454550778198517069&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:TWUmucBOWuQJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 7,
+          "link": "https://scholar.google.com/scholar?cluster=16454550778198517069&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "16454550778198517069",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=16454550778198517069&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:TWUmucBOWuQJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 15,
+      "title": "Pos tagging for code-mixed indian social media text: Systems from iiit-h for icon nlp tools contest",
+      "result_id": "469E3V79AaQJ",
+      "type": "Pdf",
+      "link": "http://amitavadas.com/ICON2015/IIITH_ICON2015.pdf",
+      "snippet": "This paper describes Part-of-Speech (POS) tagging systems submission for POS Tagging For Code-mixed Indian Social Media Text contest taking place at ICON-15. Our system uses linguistically motivated language specific as well as generic features to train the CRF …",
+      "publication_info": {
+        "summary": "A Sharma, R Motlani - International Conference On Natural …, 2015 - amitavadas.com",
+        "authors": [
+          {
+            "name": "A Sharma",
+            "link": "https://scholar.google.com/citations?user=j06ZhjUAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=j06ZhjUAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "j06ZhjUAAAAJ"
+          },
+          {
+            "name": "R Motlani",
+            "link": "https://scholar.google.com/citations?user=NYhr4aoAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=NYhr4aoAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "NYhr4aoAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "amitavadas.com",
+          "file_format": "PDF",
+          "link": "http://amitavadas.com/ICON2015/IIITH_ICON2015.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=469E3V79AaQJ",
+        "cited_by": {
+          "total": 8,
+          "link": "https://scholar.google.com/scholar?cites=11818005481077911523&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "11818005481077911523",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11818005481077911523&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:469E3V79AaQJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 4,
+          "link": "https://scholar.google.com/scholar?cluster=11818005481077911523&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "11818005481077911523",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=11818005481077911523&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "http://scholar.googleusercontent.com/scholar?q=cache:469E3V79AaQJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 16,
+      "title": "IIIT-H System for MediaEval 2014 QUESST.",
+      "result_id": "pOO2OyHFWUkJ",
+      "type": "Pdf",
+      "link": "http://ceur-ws.org/Vol-1263/mediaeval2014_submission_76.pdf",
+      "snippet": "This paper describes the experiments and observations for Query-by-Example Search on Speech Task (QUESST) at MediaEval 2014. In this paper, we describe two different representations of speech that were explored for the task. We also show the capabilities and …",
+      "publication_info": {
+        "summary": "S Kesiraju, GV Mantena, K Prahallad - MediaEval, 2014 - ceur-ws.org",
+        "authors": [
+          {
+            "name": "S Kesiraju",
+            "link": "https://scholar.google.com/citations?user=uEA-rXEAAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=uEA-rXEAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "uEA-rXEAAAAJ"
+          },
+          {
+            "name": "K Prahallad",
+            "link": "https://scholar.google.com/citations?user=3-8i_54AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3-8i_54AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "3-8i_54AAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "ceur-ws.org",
+          "file_format": "PDF",
+          "link": "http://ceur-ws.org/Vol-1263/mediaeval2014_submission_76.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=pOO2OyHFWUkJ",
+        "cited_by": {
+          "total": 8,
+          "link": "https://scholar.google.com/scholar?cites=5285472384222421924&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "5285472384222421924",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=5285472384222421924&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:pOO2OyHFWUkJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 4,
+          "link": "https://scholar.google.com/scholar?cluster=5285472384222421924&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "5285472384222421924",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=5285472384222421924&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "http://scholar.googleusercontent.com/scholar?q=cache:pOO2OyHFWUkJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 17,
+      "title": "IIIT-H at CLEF eHealth 2017 Task 2: Technologically Assisted Reviews in Empirical Medicine.",
+      "result_id": "sbqImULSyJ4J",
+      "type": "Pdf",
+      "link": "http://ceur-ws.org/Vol-1866/paper_116.pdf",
+      "snippet": "Observational evidence in clinical practice is critical in healthcare and policy making. Researchers spend a lot of time searching for relevant published articles to write a systematic review of a topic. In this paper, we present our participation as the team of IIIT …",
+      "publication_info": {
+        "summary": "J Singh, L Thomas - CLEF (working notes), 2017 - ceur-ws.org"
+      },
+      "resources": [
+        {
+          "title": "ceur-ws.org",
+          "file_format": "PDF",
+          "link": "http://ceur-ws.org/Vol-1866/paper_116.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=sbqImULSyJ4J",
+        "cited_by": {
+          "total": 4,
+          "link": "https://scholar.google.com/scholar?cites=11441626036820294321&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "11441626036820294321",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11441626036820294321&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:sbqImULSyJ4J:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "cached_page_link": "http://scholar.googleusercontent.com/scholar?q=cache:sbqImULSyJ4J:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 18,
+      "title": "IIIT-H at ImageCLEF Wikipedia MM 2009",
+      "result_id": "GqrMoOnrgWUJ",
+      "type": "Pdf",
+      "link": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.494.2609&rep=rep1&type=pdf",
+      "snippet": "In this paper, we describe the IIITH retrieval system used for the ImageCLEF Wikipedia MM task. The system automatically ranks the most similar images to a given textual query. The system preprocesses the data set in order to remove the non-informative terms. For each …",
+      "publication_info": {
+        "summary": "S Vundavalli - CLEF 2009 working notes, 2009 - Citeseer"
+      },
+      "resources": [
+        {
+          "title": "psu.edu",
+          "file_format": "PDF",
+          "link": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.494.2609&rep=rep1&type=pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=GqrMoOnrgWUJ",
+        "cited_by": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cites=7314386658484070938&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "7314386658484070938",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=7314386658484070938&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:GqrMoOnrgWUJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 4,
+          "link": "https://scholar.google.com/scholar?cluster=7314386658484070938&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "7314386658484070938",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=7314386658484070938&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:GqrMoOnrgWUJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 19,
+      "title": "IIIT-H SWS 2013: Gaussian Posteriorgrams of Bottle-Neck Features for Query-by-Example Spoken Term Detection.",
+      "result_id": "cOXZ6LTHeLAJ",
+      "type": "Pdf",
+      "link": "https://www.academia.edu/download/35226555/gau_kp_mediaeval2013.pdf",
+      "snippet": "This paper describes the experiments conducted for spoken web search (SWS) at MediaEval 2013 evaluations. A conventional approach is to train a multi-layer perceptron using high resource languages and then use it in the low resource scenario. However …",
+      "publication_info": {
+        "summary": "GV Mantena, K Prahallad - MediaEval, 2013 - academia.edu",
+        "authors": [
+          {
+            "name": "K Prahallad",
+            "link": "https://scholar.google.com/citations?user=3-8i_54AAAAJ&hl=en&num=20&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3-8i_54AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "3-8i_54AAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "academia.edu",
+          "file_format": "PDF",
+          "link": "https://www.academia.edu/download/35226555/gau_kp_mediaeval2013.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=cOXZ6LTHeLAJ",
+        "cited_by": {
+          "total": 7,
+          "link": "https://scholar.google.com/scholar?cites=12716133127695230320&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "12716133127695230320",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=12716133127695230320&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:cOXZ6LTHeLAJ:scholar.google.com/&scioq=iiith&hl=en&num=20&as_sdt=0,5",
+        "versions": {
+          "total": 4,
+          "link": "https://scholar.google.com/scholar?cluster=12716133127695230320&hl=en&num=20&as_sdt=0,5",
+          "cluster_id": "12716133127695230320",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=12716133127695230320&engine=google_scholar&hl=en&num=20"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:cOXZ6LTHeLAJ:scholar.google.com/+iiith&hl=en&num=20&as_sdt=0,5"
+      }
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "iiith krishna",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=1&q=iiith+krishna&qst=ib"
+    },
+    {
+      "query": "iiith gupta",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=2&q=iiith+gupta&qst=ib"
+    },
+    {
+      "query": "iiith iith",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=3&q=iiith+iith&qst=ib"
+    },
+    {
+      "query": "iiith singh",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=4&q=iiith+singh&qst=ib"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://scholar.google.com/scholar?start=20&q=iiith&hl=en&num=20&as_sdt=0,5",
+    "other_pages": {
+      "2": "https://scholar.google.com/scholar?start=20&q=iiith&hl=en&num=20&as_sdt=0,5",
+      "3": "https://scholar.google.com/scholar?start=40&q=iiith&hl=en&num=20&as_sdt=0,5",
+      "4": "https://scholar.google.com/scholar?start=60&q=iiith&hl=en&num=20&as_sdt=0,5",
+      "5": "https://scholar.google.com/scholar?start=80&q=iiith&hl=en&num=20&as_sdt=0,5",
+      "6": "https://scholar.google.com/scholar?start=100&q=iiith&hl=en&num=20&as_sdt=0,5",
+      "7": "https://scholar.google.com/scholar?start=120&q=iiith&hl=en&num=20&as_sdt=0,5",
+      "8": "https://scholar.google.com/scholar?start=140&q=iiith&hl=en&num=20&as_sdt=0,5",
+      "9": "https://scholar.google.com/scholar?start=160&q=iiith&hl=en&num=20&as_sdt=0,5",
+      "10": "https://scholar.google.com/scholar?start=180&q=iiith&hl=en&num=20&as_sdt=0,5"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=20",
+    "next": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=20",
+      "3": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=40",
+      "4": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=60",
+      "5": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=80",
+      "6": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=100",
+      "7": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=120",
+      "8": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=140",
+      "9": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=160",
+      "10": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=iiith&start=180"
+    }
+  }
+}

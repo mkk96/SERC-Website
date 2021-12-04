@@ -1,0 +1,32 @@
+﻿header,Name,summary,Link
+project,Student Projects,Link,https://serc.iiit.ac.in/resources/projects/student-project/
+project,Current Funded Projects,Link,https://serc.iiit.ac.in/resources/projects/funded-project/
+project,Past Funded Projects,Link,https://serc.iiit.ac.in/resources/projects/current-project/
+project,Other Projects,Link,https://serc.iiit.ac.in/resources/other-projects/
+teaching,Software Engineering,To develop in-depth understanding of software engineering principles practices and ability to apply them in developing large scale software systems.,/
+teaching,Software Systems Analsis and Design,Provides an introduction to software engineering concepts and techniques to undergraduate students. Enables the students to work in smaller teams and deliver software systems.,/
+teaching,Software Foundations,Provides mathematical foundations of programs and software systems so as to be able to prove properties about their behaviour.,/
+teaching,Software Quality Engineering,Imparts quality analyses of software systems. Topics include verification software quality assurance standards etc Concepts and skills necessary to design and and validation metrics and measurements are also part of the curriculum.,/
+teaching,Internals of Application Servers,Understand essence of middleware and distributed object technology. J2EE Technology and Architecture overview. J2EE App Server architecture. Life cycle of a J2EE application-deployment through running and deployment.,/
+teaching,Principles of Programming Languages,This course is an introduction to the principles behind the design of programming languages including object oriented programming and the use of formal methods in reasoning with programs. During the course students build a series of interpreters each a mini abstract or virtual machine for a specific language.,/
+download,List of ACM Turing Award Lectures,Link,https://dblp.uni-trier.de/db/journals/cacm/turing.html
+download,ICSE's Most Influential Papers,Link,https://www.sigsoft.org/awards/icseMIPAward.html
+download,Software Engineering Readings,Link,http://people.engr.ncsu.edu/txie/sereading.htm
+download,PhD Dissertations in the Area of Software Engineering (SIGSOFT),Link,https://www.sigsoft.org/dissertations.html/
+download,Good conferences and journals listed by Tao Xie,Link,https://cs.illinois.edu/homes/taoxie/sereading.htm
+download,Other Software Engineering Research Centers,Link,https://www.cs.wm.edu/semeru/index.html
+download,Microstack (Openstack) Ussuri Configuration Document,Link,https://github.com/SIREN-DST/Crawling-Engines/blob/master/Microstack(Openstack)_Configuration.pdf
+demos,UMETRIX - Usability Evaluation Framework for Mobile Apps based on Static Code Analysis,Link,https://serc.iiit.ac.in/resources/demos/umetrix
+demos,Gamily - Gamification Platform For All,Link,https://serc.iiit.ac.in/resources/demos/gamily/
+posters,Dynamic Path Generation System for Continuous Walking in Finite Space using VR,Link,/
+posters,Scalable and Extensible Crawlers,Link,/
+posters,VREye: Towards building a Customized Head Mount Display for Virtual Reality Applications​,Link,/
+posters,Identifying the cyberattacks from the Text,Link,/
+posters,Impact of Covid on Virtual Lab,Link,/
+posters,Methodology to Develop Domain Specific Modeling Languages,Link,/
+posters,Virtual Labs Outreach,Link,/
+posters,Virtual Labs Experiment Pedagogy,Link,/
+posters,Smart Contracts for Opensource Software License Management,Link,/
+posters,Understanding Software Quality Metrics for VR Products - A Mapping Study,Link,/
+posters,A Fine Grained Approach to Develop Domain Specific Search Engine,Link,/
+posters,Type safe tensor combinators,Link,/
