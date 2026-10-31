@@ -1,185 +1,131 @@
-Requirement: -
-	•	Flask latest version
-	
-	•	Virtual environment 
-	
-	•	SerpAPI
-
-
-How to install prerequisite requirnment module: -
-
-	•	Pip install flask
-	
-	•	Pip install virtualenv
-	
-	•	pip install google-search-results
-	
-Other module used: -
-
-	•	python os module
-	
-File Structure: -
-
-	•	Source folder
-	
-		o	Static
-		
-				Files
-			
-				•	namephoto.csv
-				
-				•	reso.csv
-				
-				Images
-			
-				•	{1-40}.jpg
-				
-				•	back.jpg
-				
-				•	research_areas.jpg
-				
-				Scripts
-			
-				•	main.js
-				
-				Styles
-			
-				•	main.css
-				
-		o	Templates
-		
-				admin.html
-			
-				contact.html
-			
-				event.html
-			
-				focus.html
-			
-				index.html
-			
-				profile.html
-			
-				publication.html
-			
-				resources.html
-			
-		o	Venv
-		
-				Python module
-			
-		o	app.py
+# SERC Website
 
-In Templates folder I have all the HTML files
+A Flask-based redesign of the website for the Software Engineering Research Center (SERC), IIIT Hyderabad, with data-driven People, Resources and Publications pages.
 
-In Scripts Folder I have all JavaScript Files
+![Python](https://img.shields.io/badge/Python-3-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-3-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
-In Styles Folder I Have all CSS files
+## Overview
 
-In image Folder I have all images used in throughout the website
+The site is a small Flask application that serves Jinja2 templates for each section of a research-centre website. Rather than hard-coding content into HTML, most pages are generated from data:
 
-In file folder I have two CSV file namephoto.csv and reso.csv which contain information required in People and Resource Subsection.
+- **People** and **Resources** are driven by CSV files. One template per section is reused for every sub-category (faculty, PhD students, projects, posters, ...), so adding or removing an entry only means editing a CSV row.
+- **Publications** are fetched live from Google Scholar through [SerpAPI](https://serpapi.com/) on every page load and rendered into a table in the browser.
+- **News, events and tweets** are embedded through third-party RSS and Twitter widgets.
+- A simple **Admin** page toggles a scrolling news ticker on or off across the whole site.
 
-How to Run:
-	use following command in command promt 
-	•	cd Path/source folder
-	•	.\venv\Scripts\Activate.ps1
-	•	python  .\app.py
+## Features
 
-After python .\app.py command wepapplication is deployed on local server it can access via using this http://127.0.0.1:5000/ address in browser or address mention in terminal.
+| Section | What it does |
+|---|---|
+| Home | Scrolling news ticker (when enabled), an RSS news feed from iiit.ac.in, an "About SERC" panel listing focus areas, and an embedded `@SERC_IIITH` Twitter timeline. |
+| People | Sub-menus for Faculty, PhD, MS, B.Tech students and Project Interns. Rows from `namephoto.csv` matching the category are rendered as a photo gallery with name and bio. |
+| Publications | Queries Google Scholar (via SerpAPI) and builds a table of title, snippet, authors, citation count and a link to the paper. |
+| Focus areas | Static page showing SERC research areas as an image. |
+| Events | Events feed from iiit.ac.in, embedded through an rss.app widget. |
+| Resources | Sub-menus for Projects, Teaching, Downloads/Useful Links, Demos, Dataset and Posters. Rows from `reso.csv` are rendered as a table of name and linked description. |
+| Contact | Contact form (name, email, phone, message). On submit it shows an "Email Sent!" confirmation; no email is actually sent by the backend. |
+| Admin | Yes/No form that switches the site-wide news ticker on or off (held in an in-memory flag, so it resets when the server restarts). |
 
-After accessing website using above URL first will appears will be Home Page. In home we have header which is common in through out the site. Headers contain Home, people, publication, focus area, event, resource, contact, admin which all lead to their respective html page.
+## Tech stack
 
+- **Backend:** Python, Flask, Jinja2 templates
+- **Data:** CSV files for people and resources; `google-search-results` (SerpAPI client) for Google Scholar
+- **Frontend:** HTML, CSS, vanilla JavaScript (dynamic table/gallery building), Bootstrap 3, jQuery
+- **Embeds:** rss.app ticker and wall widgets, surfing-waves RSS feed widget, Twitter timeline widget
 
-Home Tab
+## Project structure
 
-In Home I have four types of content: -
+```
+SERC-Website/
+├── app.py                    # Flask routes for every page
+├── static/
+│   ├── files/
+│   │   ├── namephoto.csv     # category, name, photo file, about
+│   │   ├── reso.csv          # category, title, summary, link
+│   │   └── dumy.json         # sample SerpAPI response (handy for offline testing)
+│   ├── image/                # profile photos (1-40) and page images
+│   ├── scripts/main.js       # builds the publication table, people gallery, resource table
+│   └── styles/main.css
+└── templates/                # index, profile, publication, focus, event, resources, contact, admin
+```
 
-•	Running News header in form from right to left which can be control via Admin Mode
+## Getting started
 
-•	One Twitter space which update all tweets by SERC IIIT Hyderabad in descending order by date.
+### Prerequisites
 
-•	One is About what is SERC and goal of SERC.
+- Python 3
+- A [SerpAPI](https://serpapi.com/) API key (needed for the Publications page)
 
-•	One is news which updating from IIIT.ac.in site if click on any news heading it will redirect to news source.
+### Install and run
 
+```bash
+git clone https://github.com/mkk96/SERC-Website.git
+cd SERC-Website
 
-People Tab
+python -m venv venv
+# Windows (PowerShell)
+.\venv\Scripts\Activate.ps1
+# macOS / Linux
+source venv/bin/activate
 
-In People tab we have 5 different subtab which lead to different result in people page. For people I am using namephoto.csv file which contain following information: -
+pip install flask google-search-results
+python app.py
+```
 
-•	Category like Professor, PhD students etc.
+Then open <http://127.0.0.1:5000/>. The app runs with Flask's debug mode on.
 
-•	Name of individual like Mukul etc.
+Before using the Publications page, set the `api_key` value in the `publication()` route in `app.py` to your own SerpAPI key. The CSV files are read relative to the current working directory, so start the app from the repository root.
 
-•	Photo Relative URL or External Photo URL
+## Usage
 
-•	Information about individual like if he is PhD student then all information regarding the thesis they are working on etc.
+### Editing people and resources
 
-With using csv file, we can implement people.html page for different category of people with only one HTML page. Parsing data in main.js and generating gallery with profile photo with their name and information about them self all taken from CSV. So, if we must add or remove entry, we need to just update CSV without doing touching the site pages. 
+Both CSV files are read row by row and filtered on the first column, which must match the category in the URL (for example `/profile/phd` or `/resources/posters`).
 
-In People page we have header which is same as home page and one running new heading from right to left which can be modify by admin mode.
+`static/files/namephoto.csv`, one person per row:
 
-Then we have a heading related to category which also differentiate between different people info.
+```
+<category>,<name>,<photo file in static/image>,<about text>
+```
 
-Then we have a profile and name with their information about themselves 
+Categories used by the navigation: `faculty`, `phd`, `ms`, `btech`, `project`.
 
+`static/files/reso.csv`, one resource per row:
 
-Publication Tab
+```
+<category>,<title>,<summary / link text>,<url>
+```
 
-In Publication tab we have header which is same as home page and new heading which running from right to left that can be modified by admin.
+Categories used by the navigation: `project`, `teaching`, `download`, `demos`, `dataset`, `posters`.
 
-Data in Publication tab is populated from google scholar SerpAPI based on word like IIIT H, IIIT Hyderabad, International Institute of Information Technology Hyderabad. Parsing json got from API and retrieving information like Title of paper, Brief Summary of Paper, Authors, Number of cited, and Link to their original publication.
+Fields are split on plain commas, so values must not contain commas themselves.
 
-After getting all these information creating dynamic table where size of table depend on number of entries and entries is filled based on date in descending order. After creating table it will appear in webpage every time we refresh it will get new data from API to display.
+### Routes
 
+| Route | Page |
+|---|---|
+| `/` | Home |
+| `/profile/<category>` | People gallery for a category |
+| `/publication` | Google Scholar publications |
+| `/focus` | Focus areas |
+| `/event` | Events |
+| `/resources/<category>` | Resource table for a category |
+| `/contact` | Contact form |
+| `/admin` | News ticker on/off |
 
-Focus Tab
+## Notes and limitations
 
-In focus Tab we have same header and running news heading as home page. As content I displayed all research area by image taken from SERC website.
+- The Admin page has no authentication, and the ticker setting lives in a process-global variable.
+- The Contact form does not send email; it only renders a confirmation message.
+- News, events and tweets depend on third-party widgets (rss.app, surfing-waves, Twitter), which may change or stop working over time.
 
+## Context
 
-Event Tab
+Built at IIIT Hyderabad (2021) as a redesign exercise for the SERC website.
 
-In Event tab we have same header and running news heading as home page. Event is populated by RSS API which generate API from iiit.ac.in event page and displayed in rectangular box with title and brief summary and if click on any of event it will redirect to the source page of event.
+---
 
-
-Resource Tab
-
-In Resource tab I have same header and running new heading as home page. To populated content to resource tab I am using reso.csv file which contain following information: -
-
-•	Category: - like project, teaching etc.
-
-•	Title: -	like Student project, Software engineering
-
-•	Summary: - brief Summary
-
-•	Link: - Link of original content
-
-Using CSV file, I am only using one html file for all subtopic of resource tab.
-
-After collecting all information, I am generating dynamic table in which width and height of table depend on content of table. In table we have two heading name and their summary and if we click on summary then it will redirect to original content and link is empty it will redirect to home page of website. Also heading of page changing depending of category we selected like if we click on teacher the heading will show teacher and one dynamic table will be populated below the heading
-
-
-Contact Tab
-In Contact tab we have facility to mail some query to respective department by filing required information.
-
-
-Admin Tab
-
-In Admin tab we have header and running news same as home page. In Admin tab we can modified the behavior of running news header. Initially running news header in disabled mode. But in admin page we were asked to select if we want a running header or not. If we click on yes, a running news header will appear in all tabs in a website. If we select no then running news header will be disabled mode until we switch on again. 
-
-
-Admin Mode to manage content: -
-
-Running news header from right to left can be manage by Admin mode. We have two option either to trun off or on. If we click yes the news header will appears in all tab. if we click on No then it will disappears.
-
-
-Publication Data: - 
-
-Taking publication data from Google scholar SerpAPI filtered on key word like IIIT H, IIIT Hyderabad, International Institute of Information Technology Hyderabad and after parsing json from API displaying selected data in dynamic table.
-
-
-News/Updates: -
-
-News and Twitter space is in home page in left side we have news space in which new taken from iiit.ac.in and displayed through RSS API and in right side we have Twitter space where data is taken from twitter api and displyed 
+Made by [Mukul Kumar](https://mkk96.github.io) · [GitHub](https://github.com/mkk96) · [LinkedIn](https://www.linkedin.com/in/mukul-kumar-60322616b/)
